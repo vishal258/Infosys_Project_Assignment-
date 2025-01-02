@@ -84,7 +84,6 @@ The following technologies are used to implement the API:
         "totalAmounts": 250.0
     }
 ]
-
 ###2. Get Rewards for a Custom Date Range
 
 **POST** `/api/rewards/custom?startDate={startDate}&endDate={endDate}
@@ -118,7 +117,6 @@ Response:
         "totalAmounts": 50.0
     }
 ]
-
 
 # Running the Application
 
