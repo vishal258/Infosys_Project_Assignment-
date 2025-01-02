@@ -110,13 +110,13 @@ public class RewardsService {
 	}
 
 	private int calculatePoints(double amount) {
-		if (amount <= 50) {
-			return 0;
-		} else if (amount <= 100) {
-			return (int) (amount - 50);
-		} else {
-			return (int) ((amount - 100) * 2 + 50);
-		}
+	    if (amount <= 50) {
+	        return 0;  
+	    } else if (amount <= 100) {
+	        return (int) (amount - 50); 
+	    } else {
+	        return (int) ((amount - 100) + 50); 
+	    }
 	}
 
 	public List<RewardsModel> generateMockData() {
