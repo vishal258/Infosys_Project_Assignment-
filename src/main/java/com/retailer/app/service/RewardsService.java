@@ -115,7 +115,7 @@ public class RewardsService {
 	    } else if (amount <= 100) {
 	        return (int) (amount - 50); 
 	    } else {
-	        return (int) ((amount - 100) + 50); 
+	        return (int) ((amount - 100)* 2 + 50); 
 	    }
 	}
 
